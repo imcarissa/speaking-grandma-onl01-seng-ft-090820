@@ -22,7 +22,4 @@ elsif speak_to_grandma("WHAT DID YOU EAT TODAY?".capitalize) == "WHAT DID YOU EA
 
 else
   puts "HUH?! SPEAK UP, SONNY!"
-
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'
 end
