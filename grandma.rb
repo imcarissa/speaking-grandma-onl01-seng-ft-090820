@@ -8,7 +8,7 @@ def speak_to_grandma(phrase)
 
 if phrase = "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
-elsif speak_to_grandma("Hi, Nana how are you?") == "Hi, Nana. How are you?"
+elsif phrase == "Hi, Nana. How are you?"
   puts "HUH?! SPEAK UP, SONNY!"
 elsif speak_to_grandma("Hi!") == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
