@@ -9,7 +9,7 @@ speak_to_grandma = "I LOVE YOU GRANDMA".upcase
 if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
   puts "I LOVE YOU TOO PUMPKIN!".upcase
 elsif speak_to_grandma == "Hi, Nana. How are you?"
-  puts "NO, NOT SINCE 1938!".upcase
+  puts "HUH?! SPEAK UP, SONNY!".upcase
 
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
