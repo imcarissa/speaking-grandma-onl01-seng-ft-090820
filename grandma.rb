@@ -6,9 +6,9 @@ speak_to_grandma = "I LOVE YOU GRANDMA".upcase
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
+if speak_to_grandma("I LOVE YOU GRANDMA") == "I LOVE YOU GRANDMA!".upcase
   puts "I LOVE YOU TOO PUMPKIN!".upcase
-elsif speak_to_grandma == "Hi, Nana. How are you?"
+elsif speak_to_grandma("Hi Nana") == "Hi, Nana. How are you?"
   puts "HUH?! SPEAK UP, SONNY!".upcase
 elsif speak_to_grandma == "Hi!".capitalize
   puts "HUH?! SPEAK UP, SONNY!".upcase
