@@ -20,8 +20,8 @@ elsif speak_to_grandma("WHAT DID YOU EAT TODAY?".capitalize) == "WHAT DID YOU EA
 
 # NO, NOT SINCE 1938!
 
-else speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
-  puts "I LOVE YOU TOO PUMPKIN!"
+else
+  puts "HUH?! SPEAK UP, SONNY!"
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
