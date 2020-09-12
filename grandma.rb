@@ -10,9 +10,7 @@ if phrase = "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
 elsif phrase == phrase.downcase
   puts "HUH?! SPEAK UP, SONNY!"
-elsif phrase == "Hi!"
-  puts "HUH?! SPEAK UP, SONNY!"
-elsif speak_to_grandma("WHAT DID YOU EAT TODAY?".capitalize) == "WHAT DID YOU EAT TODAY?"
+elsif phrase == phrase.upcase
   puts "NO, NOT SINCE 1938!"
 else
   puts "HUH?! SPEAK UP, SONNY!"
