@@ -9,7 +9,7 @@ if speak_to_grandma == "ARE YOU, HUNGRY, GRANDMA?!".upcase
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-if
+elsif speak_to_grandma == "I LOVE YOU GRANDMA"
 
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
