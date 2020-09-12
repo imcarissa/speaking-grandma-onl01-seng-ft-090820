@@ -17,6 +17,8 @@ elsif speak_to_grandma == "ARE YOU HUNGRY, GRANDMA?!".upcase
 # NO, NOT SINCE 1938!
 
 else speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
+  puts "I LOVE YOU TOO PUMPKIN!"
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+end
