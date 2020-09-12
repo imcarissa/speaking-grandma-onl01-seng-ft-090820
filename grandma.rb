@@ -15,7 +15,8 @@ elsif speak_to_grandma == "Hi!".capitalize
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 
-elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
+elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?".capitalize
+  puts "NO, NOT SINCE 1938!".capitalize
 
 # NO, NOT SINCE 1938!
 
