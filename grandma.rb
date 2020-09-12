@@ -2,6 +2,8 @@
 
 speak_to_grandma = "ARE YOU HUNGRY, GRANDMA?!"
 # Whatever you say to grandma, she should respond with
+
+if speak_to_grandma 
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
