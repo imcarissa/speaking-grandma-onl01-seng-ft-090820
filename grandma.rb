@@ -12,14 +12,8 @@ elsif speak_to_grandma("Hi, Nana how are you?") == "Hi, Nana. How are you?"
   puts "HUH?! SPEAK UP, SONNY!"
 elsif speak_to_grandma("Hi!") == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
-# If you shout, she can hear you (or at least she thinks so) 
-# and yells back
-
 elsif speak_to_grandma("WHAT DID YOU EAT TODAY?".capitalize) == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
-
-# NO, NOT SINCE 1938!
-
 else
   puts "HUH?! SPEAK UP, SONNY!"
 end
