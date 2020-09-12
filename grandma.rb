@@ -1,14 +1,14 @@
 # Write a speak_to_grandma method.
 
-speak_to_grandma = "ARE YOU HUNGRY, GRANDMA?!".upcase
+speak_to_grandma = "I LOVE YOU GRANDMA".upcase
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
-if speak_to_grandma == "Are you hungry, grandma?"
-  puts "HUH?! SPEAK UP, SONNY!".upcase
-elsif speak_to_grandma == "ARE YOU HUNGRY, GRANDMA?!".upcase
+if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
+  puts "I LOVE YOU TOO PUMPKIN!".upcase
+elsif speak_to_grandma == "Hi, Nana. How are you?"
   puts "NO, NOT SINCE 1938!".upcase
 
 # If you shout, she can hear you (or at least she thinks so) 
