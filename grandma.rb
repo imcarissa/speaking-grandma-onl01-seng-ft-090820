@@ -8,9 +8,9 @@ def speak_to_grandma(phrase)
 
 if phrase = "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
-elsif phrase == "Hi, Nana. How are you?"
+elsif phrase == phrase.downcase
   puts "HUH?! SPEAK UP, SONNY!"
-elsif speak_to_grandma("Hi!") == "Hi!"
+elsif phrase == "Hi!"
   puts "HUH?! SPEAK UP, SONNY!"
 elsif speak_to_grandma("WHAT DID YOU EAT TODAY?".capitalize) == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
