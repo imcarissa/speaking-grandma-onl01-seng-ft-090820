@@ -3,12 +3,10 @@
 speak_to_grandma = "ARE YOU HUNGRY, GRANDMA?!".upcase
 
 # Whatever you say to grandma, she should respond with
-
-if speak_to_grandma == "ARE YOU, HUNGRY, GRANDMA?!".upcase
-  puts "HUH?! SPEAK UP, SONNY!".upcase
-  
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
+
+
 
 elsif speak_to_grandma == "I LOVE YOU GRANDMA"
 
